@@ -1,0 +1,95 @@
+body {
+ /*background-color: #e53935 !important;  /* fallback for old browsers */
+ /*background-color: -webkit-linear-gradient(to right, #e53935, #e53935) !important;  /* Chrome 10-25, Safari 5.1-6 */
+ /*background-color: linear-gradient(to right, #e53935, #e53935) !important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  font-family: 'Bubbler One', sans-serif;
+  background-color: #dfd9e1 !important;
+  background-position: center center;
+  background-image: url("../images/background.jpg") ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.menu-page {
+  margin: 50px;
+}
+
+.quote {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 200%;
+  color: #D5274B !important;
+  text-align: -webkit-center;
+  font-weight: 800;
+  margin-bottom: 5%;
+}
+
+.activePage {
+  color: #ffff00;
+  text-decoration: none;
+  border-bottom: 1px solid #ffff00;
+  transition: all ease-in-out 1s;
+}
+
+
+.food-img {
+  margin-top: -5%;
+}
+
+.big-brand {
+  text-align: -webkit-left;
+  margin-top: 5%;
+}
+
+.brand-image {
+  margin-top: 50px;
+}
+
+.social {
+  display: flex;
+  text-align: -webkit-center !important;
+}
+
+.social a {
+  color: white;
+  margin: 0 2%;
+}
+
+.footer {
+  background-color: #12200F !important;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.navbar-title {
+  font-size: 30px;
+}
+
+@media screen and (max-width: 800px) {
+    .big-brand {
+      text-align: -webkit-center;
+    }
+    .food-img {
+      text-align: -webkit-center;
+      margin-top: -4%;
+      max-width: 102%;
+      margin-bottom: 10%
+    }
+    .big-brand-image {
+      max-width: 60%;
+    }
+    .brand-image {
+      margin-bottom: -18%;
+    }
+}
+@media screen and (max-width: 450px) {
+  .quote {
+    font-size: 100%;
+  }
+}
+@media screen and (max-width: 370px) {
+    .quote {
+      display: none;
+    }
+}

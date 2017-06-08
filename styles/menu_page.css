@@ -1,0 +1,64 @@
+#menu-top-img {
+  width: 20%;
+  margin-top: -1%;
+  margin-bottom: -3%;
+}
+
+.menu-category-title {
+  font-size: 200%;
+  font-weight: bold;
+  margin-left: 3px;
+  margin-top: 5px;
+}
+
+
+hr.divider {
+	height: 10px;
+	border: 0;
+	box-shadow: 0 10px 10px -10px #bd2d2d inset;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.menu-page {
+  font-family: 'Bubbler One', sans-serif;
+}
+
+.menu-category-item-name {
+  margin-left: 7% !important;
+}
+
+.menu-item-price {
+  font-size: 150%;
+  font-weight: bold;
+
+}
+
+#sidebar {
+  width: 25%;
+  position: fixed;
+  margin-top: 50px;
+  border: 0;
+	box-shadow: 0 10px 10px -10px #12200F inset;
+  
+  padding: 5px;
+}
+
+#special-sunday-img-2 {
+  max-width: 100%;
+}
+
+#dish-name {
+  font-family: 'Mogra', cursive;
+  font-size: 175%;
+  color:crimson;
+}
+
+#dish-quote {
+  font-family: 'Mogra', cursive;
+  font-size: 155%;
+}
+
+.menu-category-item-price {
+
+}

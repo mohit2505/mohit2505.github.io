@@ -66,6 +66,10 @@ body {
   font-size: 30px;
 }
 
+#coming-soon-img {
+  margin: 10% auto 0 auto;
+}
+
 @media screen and (max-width: 800px) {
     .big-brand {
       text-align: -webkit-center;

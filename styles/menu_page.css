@@ -60,10 +60,26 @@ hr.divider {
 }
 
 @media screen and (max-width: 470px) {
+  .menu-page {
+    margin: 50px 5px 10px 5px;
+  }
   .menu-item-price {
-    font-size: 115%;
+    font-size: 135%;
   }
-  #dish-name {
-    font-size: 175%;
+  #sidebar {
+    display: none;
   }
+  .menu-category-title {
+    font-size: 170% !important;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .menu-item-price {
+    font-size: 105%;
+  }
+  .menu-category-title {
+    font-size: 145% !important;
+  }
+
 }
